@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@400;700&family=Playfair+Display:wght@400;700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary: #FDE535;
+    --black: #333333;
+    --width-break:600px
+}
+
+body{
+    margin: 0;
+    /* font-family: 'Dongle', sans-serif; */
+    font-family: 'Playfair Display', serif;
+    font-size: medium;
+    color: #333333;
+}
+/* Nav */
+nav {
+    background-color: var(--primary);
+    text-align: center;
+}
+
+nav h1{
+    font-size: 2rem;
+    padding: 1rem;
+}
+/* Main */
+
+main {
+    /* height: 100vh; */
+    margin: auto;
+    padding: 1rem;
+    max-width: var(--width-break);
+}
+
+
+textarea {
+    width: 100%;
+    display: block;
+    
+    min-height: 20vh;
+    padding: 1rem;
+    margin-top: 2rem;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 1rem;
+  }
+
+  /* Button */
+
+button{
+    background-color: var(--primary);
+    border: none;
+    border-radius: 0.5rem 1rem;
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    /* font-family: 'Kalam', cursive; */
+    font-family: 'Dongle', sans-serif;
+    font-size:xx-large;
+}
+
+  #output{
+    border: 1px solid var(--black);
+      width: 100%;
+      overflow:scroll;
+     padding: 1rem;
+     min-height: 20vh;
+     max-height: 30vh;
+  }
+
+  /* Footer */
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--primary);
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+footer p {
+    max-width: var(--width-break);
+    margin: auto;
+}
